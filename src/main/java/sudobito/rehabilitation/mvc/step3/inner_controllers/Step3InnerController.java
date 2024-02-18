@@ -7,5 +7,5 @@ import java.io.IOException;
 import java.util.Map;
 
 public interface Step3InnerController {
-    ModelView process(Map<String, String> paramMap) throws ServletException, IOException;
+    ModelView process(Map<String, String> paramMap);
 }
